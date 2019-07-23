@@ -1,7 +1,7 @@
 from channels.generic.websocket import AsyncJsonWebsocketConsumer
 
 
-class NoseyConsumer(AsyncJsonWebsocketConsumer):
+class NotifierConsumer(AsyncJsonWebsocketConsumer):
 
     async def connect(self):
         await self.accept()
